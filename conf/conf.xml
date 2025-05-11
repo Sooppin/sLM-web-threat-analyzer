@@ -1,0 +1,46 @@
+<configuration>
+    <property>
+        <name>src.resources.embeddings_cache</name>
+        <value>src/resources/embeddings_cache</value>
+    </property>
+    <property>
+        <name>src.resources.model</name>
+        <value>src/resources/model</value>
+    </property>
+    <property>
+        <name>embedded_model_name</name>
+        <value>all-MiniLM-L6-v2</value>
+    </property>
+    <property>
+        <name>extract_model_name</name>
+        <value>Thoth-v2.0</value>
+    </property>
+    <property>
+        <name>device</name>
+        <value>cuda:0</value>
+    </property>
+    <property>
+        <name>batch_size</name>
+        <value>512</value>
+    </property>
+    <property>
+        <name>threshold</name>
+        <value>0.7</value>
+    </property>
+    <property>
+        <name>k</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>prefix</name>
+        <value>extract attack syntax: </value>
+    </property>
+    <property>
+        <name>max_length</name>
+        <value>512</value>
+    </property>
+    <property>
+        <name>max_memory_mb</name>
+        <value>2048</value>
+    </property>
+</configuration>

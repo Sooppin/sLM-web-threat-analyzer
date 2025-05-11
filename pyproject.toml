@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sLM-web-threat-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["subin.lee"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.49.0"
+torch = "^2.6.0"
+langchain = "^0.3.19"
+langchain-community = "^0.3.17"
+langchain-huggingface = "^0.1.2"
+fastapi = "^0.115.8"
+faiss-cpu = "^1.10.0"
+uvicorn = "^0.34.0"
+jq = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
